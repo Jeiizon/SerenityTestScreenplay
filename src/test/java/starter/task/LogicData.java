@@ -20,7 +20,7 @@ public class LogicData {
     public static By unity = By.xpath("//span[contains(@class,'select2-match')]/ancestor::div[contains(@class, 'select2-result-label')]");
 
     public static By saveOrg = By.xpath("//span[contains(@class,'button-inner')]/ancestor::div[contains(@class, 'tool-button save-and-close-button icon-tool-button')]");
-    public static By searchORG = By.cssSelector("//body[text()='Administration']");
+    public  static By clickAditional = By.xpath("//button[contains(@id, 's-sidebar-toggler')]");
 
 
     /* ESPACIO PARA ORGANIZACIÓN */

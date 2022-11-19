@@ -13,7 +13,8 @@ public class Login {
                 Enter.theValue(user).into(LogicData.username),
                 Clear.field(LogicData.password),
                 Enter.theValue(clave).into(LogicData.password),
-                Click.on(LogicData.validate)
+                Click.on(LogicData.validate),
+                Click.on(LogicData.clickAditional)
 
 
 
