@@ -14,8 +14,8 @@ public class RegisterBusinessUnit {
                 Enter.theValue(name).into(LogicData.nameOrg),
                 Click.on(LogicData.listOrg),
                 Click.on(LogicData.unity),
-                Click.on(LogicData.saveOrg),
-                Click.on(LogicData.clickAditional)
+                Click.on(LogicData.saveOrg)
+              //  Click.on(LogicData.clickAditional)
 
 
         );
